@@ -13,8 +13,9 @@ The project was realised with Visual Studio windows forms and written in C#.
 
 The project is divided as follows: 
 
--   *Login Interface*: This interface allows do the login
-![Class Diagram](Media/Login_interface.PNG)
+-   *Login Interface*: This interface allows do the login 
+
+- ![Class Diagram](Media/Login_interface.PNG)
 -   *Teacher Interface*:  Here you can add or delate an exam, with the carresponding information
 ![Class Diagram](Media/Teacher_interface.PNG)
 -   *Student Interface*: The student interface allows you to book or cancel exams that have been entered on the calendar by the various professors.
