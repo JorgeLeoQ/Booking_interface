@@ -1,0 +1,6 @@
+1	Matematica I	1	BIO
+2	Fisica Generale	1	EO
+3	Matematica II	2	EO
+4	Elettronica	2	EO
+5	Controlli Automatici	3	EO
+6	Teoria dei sistemi	2	EO

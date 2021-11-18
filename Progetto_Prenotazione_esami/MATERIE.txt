@@ -1,0 +1,45 @@
+1	Fisica Generale 	1	EO
+2	Matematica II   	1	EO
+3	Matemarica I    	1	EO
+4	Geometria       	1	EO
+5	Elettronica Digitale	1	EO
+6	Elettronica     	2	EO
+7	Teoria dei sistemi	2	EO
+8	Metodi Matematici	2	EO
+9	Campi Elttromagnetici	2	EO
+10	Segnali per sistemi	2	EO
+11	Controlli Automatici	3	EO
+12	Elettronica Embedded	3	EO
+13	Elaborazione Digitale	3	EO
+14	Basi di dati    	3	EO
+15	Statistica      	3	EO
+16	Matematica I     	1	BIO
+17	Fond. di Informatica	1	BIO
+18	Geometria       	1	BIO
+19	Fisica generale 	1	BIO	
+20	Chimica         	1	BIO
+21	Campi elettromagnetici	2	BIO
+22	Comunicazioni elet.	2	BIO
+23	Teoria dei sistemi	2 	BIO
+24	Teoria dei circuiti	2	BIO
+25	Bioelettronica  	2	BIO
+26	Fisiologia      	3	BIO
+27	Controlli Automatici	3	BIO
+28	Scienza dei Materiali	3	BIO
+29	Elettronica Biomedica	3	BIO
+30	Meccanica del continuo	3	BIO
+31	Geometria        	1	INF
+32	Fond. di Informatica	1	INF
+33	Prob. e stat.   	1	INF
+34	calcolatori elet.	1	INF
+35	Analisi Matematica	1	INF
+36	Teoria dei sistemi	2	INF
+37	Fisica Matematica	2	INF
+38	Comunicazioni Elett.	2	INF
+39	Basi di dati    	2	INF
+40	Informatica comp.	2	INF
+41	Analisi Algoritmi	3	INF
+42	Circuiti Elettronici	3	INF
+43	Controlli Automatici	3	INF
+44	Applicazioni web	3	INF
+45	Controlli digitali	3	INF

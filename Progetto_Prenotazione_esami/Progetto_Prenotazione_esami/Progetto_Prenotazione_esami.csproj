@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B55D5836-D3C4-4740-A369-C1F78C77B1AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Progetto_Prenotazione_esami</RootNamespace>
+    <AssemblyName>Progetto_Prenotazione_esami</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Delete\Conferma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete\Conferma.Designer.cs">
+      <DependentUpon>Conferma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classi\DataBase.cs" />
+    <Compile Include="Classi\Esame.cs" />
+    <Compile Include="Interfaccia_Studente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaccia_Studente.Designer.cs">
+      <DependentUpon>Interfaccia_Studente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn_Out\Notifica_Log_Out.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn_Out\Notifica_Log_Out.Designer.cs">
+      <DependentUpon>Notifica_Log_Out.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete\Pagina_Iniziale_Docente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete\Pagina_Iniziale_Docente.Designer.cs">
+      <DependentUpon>Pagina_Iniziale_Docente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina_Insegnante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagina_Insegnante.Designer.cs">
+      <DependentUpon>Pagina_Insegnante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete\RegistrazioneEsame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete\RegistrazioneEsame.Designer.cs">
+      <DependentUpon>RegistrazioneEsame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn_Out\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn_Out\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WARNING\Notifica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WARNING\Notifica.Designer.cs">
+      <DependentUpon>Notifica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WARNING\Warning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WARNING\Warning.Designer.cs">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Delete\Conferma.resx">
+      <DependentUpon>Conferma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaccia_Studente.resx">
+      <DependentUpon>Interfaccia_Studente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn_Out\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn_Out\Notifica_Log_Out.resx">
+      <DependentUpon>Notifica_Log_Out.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete\Pagina_Iniziale_Docente.resx">
+      <DependentUpon>Pagina_Iniziale_Docente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagina_Insegnante.resx">
+      <DependentUpon>Pagina_Insegnante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete\RegistrazioneEsame.resx">
+      <DependentUpon>RegistrazioneEsame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WARNING\Notifica.resx">
+      <DependentUpon>Notifica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WARNING\Warning.resx">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\ESAMI.txt" />
+    <Content Include="Database\INSEGNANTI.txt" />
+    <Content Include="Database\MATERIE.txt" />
+    <Content Include="Database\PRENOTAZIONI.txt" />
+    <Content Include="Database\STUDENTI.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+1	Elettronica Digitale	12/5/2020	22/5/2020	22/5/2020	Scritto	B12	9:0	Sfigati 	5
+2	Campi Elttromagnetici	12/5/2020	28/5/2020	28/5/2020	Scritto	B13	10:0	9
+3	Controlli Automatici	12/5/2020	28/5/2020	28/5/2020	Scritto	B15	8:0	11
+4	Matematica II   	13/5/2020	29/5/2020	29/5/2020	Scritto	B15	9:0	2
+5	Chimica         	13/5/2020	27/5/2020	27/5/2020	Scritto	E1	8:0	20

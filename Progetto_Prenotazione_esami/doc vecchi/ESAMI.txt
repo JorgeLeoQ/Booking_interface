@@ -1,0 +1,104 @@
+Esame:		
+Codice:		123456789
+Creato il:		5/12/2019
+Data appello:	1/1/1
+Tipologia:	
+Aula:		
+Ora:		:
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		5/12/2019
+Data appello:	5/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		
+Codice:		123456789
+Creato il:		5/12/2019
+Data appello:	1/1/1
+Tipologia:	
+Aula:		
+Ora:		:
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	7/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	7/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	7/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	7/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	3/9/2020
+Tipologia:	
+Aula:		
+Ora:		:
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	7/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		7/12/2019
+Data appello:	7/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		9/12/2019
+Data appello:	9/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		9/12/2019
+Data appello:	9/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
+Esame:		Controlli digitali
+Codice:		123456789
+Creato il:		9/12/2019
+Data appello:	9/12/2019
+Tipologia:	scritto
+Aula:		B0
+Ora:		9:00
+
